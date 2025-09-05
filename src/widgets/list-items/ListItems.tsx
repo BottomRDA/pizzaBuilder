@@ -5,8 +5,9 @@ import { CardItem } from 'widgets/card/Card.tsx';
 import { TPizza } from 'entities/entities.ts';
 interface IListItems {
     list: TPizza[];
+    textCardButton: string;
 }
-export const ListItems = ({ list }: IListItems) => {
+export const ListItems = ({ list, textCardButton }: IListItems) => {
     return (
         <SimpleGrid
             minChildWidth='300px'
@@ -18,7 +19,7 @@ export const ListItems = ({ list }: IListItems) => {
         >
             {list.map((item) => (
                 <GridItem key={item.id} w='300px'>
-                    <CardItem item={item} textButton='Добавить в корзину' />
+                    <CardItem item={item} textButton={textCardButton} />
                 </GridItem>
             ))}
         </SimpleGrid>

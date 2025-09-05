@@ -11,7 +11,7 @@ export const CatalogPage = () => {
     return (
         <VStack w='100%' h={'100vh'} overflow='hidden'>
             <Header logo={<PizzaLogo />} title='Конструктор пицц' />
-            <ListItems list={listPizzas} />
+            <ListItems list={listPizzas} textCardButton={'Добавить в корзину'} />
         </VStack>
     );
 };
