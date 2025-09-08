@@ -1,11 +1,11 @@
-import { TPizza } from 'entities/entities.ts';
+import { IProduct } from 'entities/entities.ts';
 
-export const listPizzas: TPizza[] = [
+export const listPizzas: IProduct[] = [
     {
         id: 1,
         name: 'Пепперони',
         price: 500,
-        image: 'https://via.placeholder.com/150',
+        imageSrc: 'https://via.placeholder.com/150',
         ingredients: [
             { id: 1, name: 'сыр моцарелла', price: 50 },
             { id: 2, name: 'острый соус', price: 30 },
@@ -17,7 +17,7 @@ export const listPizzas: TPizza[] = [
         id: 2,
         name: 'Маргарита',
         price: 400,
-        image: 'https://via.placeholder.com/150',
+        imageSrc: 'https://via.placeholder.com/150',
         ingredients: [
             { id: 5, name: 'базилик', price: 20 },
             { id: 6, name: 'помидоры черри', price: 40 },
@@ -29,7 +29,7 @@ export const listPizzas: TPizza[] = [
         id: 3,
         name: 'Четыре сыра',
         price: 550,
-        image: 'https://via.placeholder.com/150',
+        imageSrc: 'https://via.placeholder.com/150',
         ingredients: [
             { id: 8, name: 'горгонзола', price: 60 },
             { id: 9, name: 'чеддер', price: 50 },
@@ -41,7 +41,7 @@ export const listPizzas: TPizza[] = [
         id: 4,
         name: 'Гавайская',
         price: 480,
-        image: 'https://via.placeholder.com/150',
+        imageSrc: 'https://via.placeholder.com/150',
         ingredients: [
             { id: 12, name: 'доп. ананас', price: 30 },
             { id: 13, name: 'ветчина', price: 50 },
@@ -53,7 +53,7 @@ export const listPizzas: TPizza[] = [
         id: 5,
         name: 'Барбекю',
         price: 530,
-        image: 'https://via.placeholder.com/150',
+        imageSrc: 'https://via.placeholder.com/150',
         ingredients: [
             { id: 14, name: 'курица', price: 50 },
             { id: 15, name: 'бекон', price: 50 },
@@ -65,7 +65,7 @@ export const listPizzas: TPizza[] = [
         id: 6,
         name: 'Вегетарианская',
         price: 450,
-        image: 'https://via.placeholder.com/150',
+        imageSrc: 'https://via.placeholder.com/150',
         ingredients: [
             { id: 18, name: 'баклажаны', price: 40 },
             { id: 19, name: 'цукини', price: 40 },
@@ -77,7 +77,7 @@ export const listPizzas: TPizza[] = [
         id: 7,
         name: 'Мясная',
         price: 560,
-        image: 'https://via.placeholder.com/150',
+        imageSrc: 'https://via.placeholder.com/150',
         ingredients: [
             { id: 22, name: 'салями', price: 50 },
             { id: 15, name: 'бекон', price: 50 },
@@ -89,7 +89,7 @@ export const listPizzas: TPizza[] = [
         id: 8,
         name: 'Дьябло',
         price: 520,
-        image: 'https://via.placeholder.com/150',
+        imageSrc: 'https://via.placeholder.com/150',
         ingredients: [
             { id: 24, name: 'халапеньо', price: 30 },
             { id: 2, name: 'острый соус', price: 30 },
@@ -101,7 +101,7 @@ export const listPizzas: TPizza[] = [
         id: 9,
         name: 'С грибами',
         price: 470,
-        image: 'https://via.placeholder.com/150',
+        imageSrc: 'https://via.placeholder.com/150',
         ingredients: [
             { id: 26, name: 'белые грибы', price: 50 },
             { id: 27, name: 'трюфельное масло', price: 60 },
@@ -113,7 +113,7 @@ export const listPizzas: TPizza[] = [
         id: 10,
         name: 'С морепродуктами',
         price: 600,
-        image: 'https://via.placeholder.com/150',
+        imageSrc: 'https://via.placeholder.com/150',
         ingredients: [
             { id: 28, name: 'креветки', price: 80 },
             { id: 29, name: 'кальмары', price: 70 },

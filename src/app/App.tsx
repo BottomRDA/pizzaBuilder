@@ -2,6 +2,8 @@ import { ChakraProvider, createSystem, defaultConfig, defineConfig } from '@chak
 
 import { CatalogPage } from 'pages/catalog/CatalogPage.tsx';
 
+import { Toaster } from '../components/ui/toaster.tsx';
+
 const theme = defineConfig({
     theme: {
         tokens: {
@@ -16,6 +18,7 @@ export const App = () => {
     return (
         <ChakraProvider value={system}>
             <CatalogPage />
+            <Toaster />
         </ChakraProvider>
     );
 };

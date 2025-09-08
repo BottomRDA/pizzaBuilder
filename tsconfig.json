@@ -1,17 +1,16 @@
 {
-  "files": [],
-  "compilerOptions": {
-    "types": ["vitest"],
-    "baseUrl": "./",
-    "paths": {
-      "/*": ["src/*"],
-      "app/*": ["src/app/*"],
-      "shared/*": ["src/shared/*"],
-      "widgets/*": ["src/widgets/*"],
-      "pages/*": ["src/pages/*"],
-      "entities/*": ["src/entities/*"]
-    }
-  },
-  "references": [{ "path": "./tsconfig.app.json" }, { "path": "./tsconfig.node.json" }]
-,
+    "files": [],
+    "compilerOptions": {
+        "types": ["vitest"],
+        "baseUrl": "./",
+        "paths": {
+            "/*": ["src/*"],
+            "app/*": ["src/app/*"],
+            "shared/*": ["src/shared/*"],
+            "widgets/*": ["src/widgets/*"],
+            "pages/*": ["src/pages/*"],
+            "entities/*": ["src/entities/*"]
+        }
+    },
+    "references": [{ "path": "./tsconfig.app.json" }, { "path": "./tsconfig.node.json" }]
 }

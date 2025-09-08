@@ -1,13 +1,14 @@
 import { GridItem, SimpleGrid } from '@chakra-ui/react';
 
-import { CardItem } from 'widgets/card/Card.tsx';
+import { CardItem } from 'pages/catalog/card/Card.tsx';
 
-import { TPizza } from 'entities/entities.ts';
-interface IListItems {
-    list: TPizza[];
+import { IProduct } from 'entities/entities.ts';
+
+interface IItemList {
+    list: IProduct[];
     textCardButton: string;
 }
-export const ListItems = ({ list, textCardButton }: IListItems) => {
+export const ItemList = ({ list, textCardButton }: IItemList) => {
     return (
         <SimpleGrid
             minChildWidth='300px'
