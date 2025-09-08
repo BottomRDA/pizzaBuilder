@@ -2,7 +2,7 @@ import { ChakraProvider, createSystem, defaultConfig, defineConfig } from '@chak
 
 import { CatalogPage } from 'pages/catalog/CatalogPage.tsx';
 
-import { Toaster } from '../components/ui/toaster.tsx';
+import { Toaster } from '../components/ui/Toaster.tsx';
 
 const theme = defineConfig({
     theme: {

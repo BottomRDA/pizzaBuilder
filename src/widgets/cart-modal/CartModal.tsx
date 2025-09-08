@@ -22,7 +22,7 @@ import { IOrderData } from 'entities/entities.ts';
 import { useCart } from 'shared/hooks/useCart.tsx';
 import { useSteps } from 'shared/hooks/useSteps.tsx';
 
-import { toaster } from '../../components/ui/toaster.tsx';
+import { toaster } from '../../components/ui/toaster.ts';
 
 interface ICartModal {
     isOpen: boolean;
